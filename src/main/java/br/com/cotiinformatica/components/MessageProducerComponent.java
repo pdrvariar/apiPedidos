@@ -19,7 +19,7 @@ public class MessageProducerComponent {
 	private Queue queue;
 	
 	@Autowired
-	private ObjectMapper objectMapper;
+	private ObjectMapper objectMapper; 
 	
 	
 	public void send(Pedido pedido) {
