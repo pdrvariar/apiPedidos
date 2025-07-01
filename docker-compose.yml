@@ -27,7 +27,7 @@ services:
            POSTGRES_PASSWORD: senha_apipedidos # Senha do usuário
            POSTGRES_DB: bd_apipedidos # Nome do banco de dados
        ports:
-          - "5432:5432" # Porta externa para a máquina / porta interna do container
+          - "5436:5432" # Porta externa para a máquina / porta interna do container
        volumes:
           - postgres_data:/var/lib/postgresql/data # Local dentro do container para armazenar os dados
        networks:
